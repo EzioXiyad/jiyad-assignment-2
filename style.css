@@ -6,15 +6,18 @@ body {
     padding: 0;
 }
 
-/* Head and main properties initial view set */
+.container {
 
-main {
-    max-width: 85%;
-    margin: 0 auto;
+    width: 1320px;
+    margin: 0 140px;
 }
 
+/* Head and main properties initial view set */
+
+
+
 /* Included background and top banner style */
-.banner {
+.banner-main {
     background-color: #161616;
 
     display: grid;
@@ -77,9 +80,8 @@ main {
 } */
 
 /* main body property layout style */
-.container {
+.blog-main {
     display: grid;
-    width: 40%;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
 }
@@ -94,6 +96,16 @@ main {
 /* blog prooperty image style*/
 .blog img {
     width: 100%;
+}
+
+.blog-item {
+    padding: 15px;
+}
+
+.blog-item button {
+    font-family: poppins;
+    width: 100px;
+    height: 32px;
 }
 
 /* parent style of footer */
