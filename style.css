@@ -19,6 +19,7 @@ main {
 
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
     border-radius: 30px;
     width: 1320px;
     height: 646px;
@@ -45,13 +46,29 @@ main {
 .header-text p {
     font-family: poppins;
     color: #FFFFFF;
+    margin-bottom: 40px;
 }
 
 /* top banner image style */
 
 .banner-image img {
-    width: 100%;
-    /* margin-bottom: -30px; */
+    width: 580px;
+
+}
+
+.hero-area-button {
+    margin-top: 20px;
+}
+
+.hero-button {
+    font-family: poppins;
+    padding: 16px 25px;
+    background-color: #DD0000;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
 }
 
 /* top banner image height */
