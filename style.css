@@ -25,7 +25,7 @@ body {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
     border-radius: 30px;
-    width: 1320px;
+    /* width: 1320px; */
     height: 646px;
     margin: 80px auto;
     padding: 40px 60px;
@@ -245,4 +245,36 @@ h5 {
 .view-all-button {
     padding: 60px 0;
     display: none;
+    text-align: center;
+}
+
+/* Tab view */
+@media only screen and (max-width: 992px) {
+    .blog-main {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .blog-container-main {
+        display: grid;
+        grid-template-columns: 1fr;
+
+    }
+
+    .blog-sidebar {
+        display: none;
+    }
+
+
+    .view-all-button {
+
+        display: block;
+
+    }
+
+    .view-all-button .hero-button {
+        margin: 0 auto;
+    }
+
 }
